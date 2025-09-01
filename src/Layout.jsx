@@ -17,7 +17,7 @@ function Layout() {
           backgroundRepeat: 'no-repeat',
         }}
       >
-     
+        
         <Outlet />
       </div>
       <Footer />

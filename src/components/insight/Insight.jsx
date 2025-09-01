@@ -57,7 +57,7 @@ export default Insight;
 export const githubInfoLoader = async () => {
   try {
     const response = await fetch(
-      'https://api.github.com/users/Muhammad-Shakeel123',
+      '',
     );
     if (!response.ok) {
       throw new Error('Network response was not ok');

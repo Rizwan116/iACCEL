@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './News.css'
 
 function News({BackroundImage,Header,Date,Time,EventDetails,News1Header,New2Text,News2Date}) {
   // const BackroundImage = "https://img.freepik.com/free-photo/beautiful-shot-mountain-covered-by-green-trees-with-beautiful-blue-sky-clouds-background_181624-16423.jpg";

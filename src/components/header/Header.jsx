@@ -3,13 +3,13 @@ import { NavLink } from 'react-router-dom';
 
 function Header() {
   return (
-    <header className="fixed top-0 left-0 right-0 bg-gradient-to-r from-blue-500 to-purple-600 shadow-lg py-4 z-50">
+    <header style={{backgroundColor: "#1e295c",}} className="fixed top-0 left-0 right-0 shadow-lg py-4 z-50">
       <nav className="flex items-center justify-between max-w-6xl mx-auto px-6">
         {/* Logo */}
         <div className="flex items-center space-x-4">
-          <NavLink to="/">
+          <NavLink to="/home">
             <img
-              src="https://img.freepik.com/free-vector/branding-identity-corporate-logo-vector-design-template_460848-13992.jpg?size=626&ext=jpg&ga=GA1.1.1824573526.1723610953&semt=ais_hybrid" // Replace with your logo URL
+              src="../../../public/LogoAcl.png" // Replace with your logo URL
               alt="Logo"
               className="h-10 object-contain transition-transform duration-500 transform hover:scale-105"
             />
@@ -25,7 +25,7 @@ function Header() {
                 `transition-transform duration-300 transform ${
                   isActive
                     ? 'text-yellow-300 scale-110'
-                    : 'text-yellow-200 hover:text-yellow-300'
+                    : 'text-white hover:text-yellow-300'
                 }`
               }
             >
@@ -39,7 +39,7 @@ function Header() {
                 `transition-transform duration-300 transform ${
                   isActive
                     ? 'text-yellow-300 scale-110'
-                    : 'text-yellow-200 hover:text-yellow-300'
+                    : 'text-white hover:text-yellow-300'
                 }`
               }
             >
@@ -55,7 +55,7 @@ function Header() {
                 `transition-transform duration-300 transform ${
                   isActive
                     ? 'text-yellow-300 scale-110'
-                    : 'text-yellow-200 hover:text-yellow-300'
+                    : 'text-white hover:text-yellow-300'
                 }`
               }
             >
@@ -70,7 +70,7 @@ function Header() {
                 `transition-transform duration-300 transform ${
                   isActive
                     ? 'text-yellow-300 scale-110'
-                    : 'text-yellow-200 hover:text-yellow-300'
+                    : 'text-white hover:text-yellow-300'
                 }`
               }
             >
@@ -85,7 +85,7 @@ function Header() {
                 `transition-transform duration-300 transform ${
                   isActive
                     ? 'text-yellow-300 scale-110'
-                    : 'text-yellow-200 hover:text-yellow-300'
+                    : 'text-white hover:text-yellow-300'
                 }`
               }
             >
@@ -100,7 +100,7 @@ function Header() {
                 `transition-transform duration-300 transform ${
                   isActive
                     ? 'text-yellow-300 scale-110'
-                    : 'text-yellow-200 hover:text-yellow-300'
+                    : 'text-white hover:text-yellow-300'
                 }`
               }
             >
