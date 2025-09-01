@@ -2,17 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-function Data() {
+function Data({ BackGroundImage, Header, Text, Para,Cta,Stats1,Stats2, Stats3,Stats4}) {
 
-  const BackGroundImage= "https://img.freepik.com/free-photo/beautiful-shot-mountain-covered-by-green-trees-with-beautiful-blue-sky-clouds-background_181624-16423.jpg";
-  const Header = "Home";
-  const Text = "Your Gateway to MENA Growth";
-  const Para = 'Explore how our services can help you achieve your goals and connect with like-minded individuals.';
-  const Cta = "KNOW MORE";
-  const Stats1 = "25+";
-  const Stats2 = "25+";
-  const Stats3 = "25+";
-  const Stats4 = "25+";
+  // const BackGroundImage= "https://img.freepik.com/free-photo/beautiful-shot-mountain-covered-by-green-trees-with-beautiful-blue-sky-clouds-background_181624-16423.jpg";
+  // const Header = "Home";
+  // const Text = "Your Gateway to MENA Growth";
+  // const Para = 'Explore how our services can help you achieve your goals and connect with like-minded individuals.';
+  // const Cta = "KNOW MORE";
+  // const Stats1 = "25+";
+  // const Stats2 = "25+";
+  // const Stats3 = "25+";
+  // const Stats4 = "25+";
 
   return (
     <div

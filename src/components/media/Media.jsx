@@ -1,18 +1,29 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Media.css'
+import './Media.css';
+import Hero from '../hero/Hero';
 
 function Media() {
   
   return (
     <div>
+
+       <Hero  backgroundImage="https://img.freepik.com/free-photo/beautiful-shot-mountain-covered-by-green-trees-with-beautiful-blue-sky-clouds-background_181624-16423.jpg"
+      title="Media"
+      text="Our Work speaks for itself"
+      
+     />
      
 
-      <div>
-        {Text}
-      </div>
+        <div>
 
+            <h1>
+              stay updated with news, <br />
+              press realser and stories driving <br />
+              our global journey
+            </h1>
 
+        </div>
             <div className='flex'>
               <div>
                  
@@ -66,7 +77,7 @@ function Media() {
                   </div>
                  </div>
 
-<hr />
+                  <hr />
                   <div>
                    <div>
                    <div>
