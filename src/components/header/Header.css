@@ -1,0 +1,12 @@
+@media (max-width: 800px) {
+    .navbar-links-container {
+        display: none!important;
+    }
+        .navbar-menu-container {
+        display: flex
+;
+    }
+    .opacity {
+    inset: 70px 0px 0px 0px;
+}
+}
