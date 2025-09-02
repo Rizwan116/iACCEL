@@ -122,7 +122,7 @@ function Footer() {
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-blue-600 transition-colors duration-300"
             >
-              <FontAwesomeIcon icon={faFacebookF} size="lg" />
+              {/* <FontAwesomeIcon icon={faFacebookF} size="lg" /> */}
             </a>
             <a
               href="https://twitter.com"
@@ -146,7 +146,7 @@ function Footer() {
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-gray-400 transition-colors duration-300"
             >
-              <FontAwesomeIcon icon={faGithub} size="lg" />
+              {/* <FontAwesomeIcon icon={faGithub} size="lg" /> */}
             </a>
             <a
               href="https://tiktok.com"
@@ -154,7 +154,7 @@ function Footer() {
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-black transition-colors duration-300"
             >
-              <FontAwesomeIcon icon={faTiktok} size="lg" />
+              {/* <FontAwesomeIcon icon={faTiktok} size="lg" /> */}
             </a>
             <a
               href="https://snapchat.com"
@@ -162,7 +162,7 @@ function Footer() {
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-yellow-500 transition-colors duration-300"
             >
-              <FontAwesomeIcon icon={faSnapchatGhost} size="lg" />
+              {/* <FontAwesomeIcon icon={faSnapchatGhost} size="lg" /> */}
             </a>
             <a
               href="https://linkedin.com"

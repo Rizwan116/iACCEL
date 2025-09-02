@@ -47,16 +47,18 @@ function Crousel({Header}) {
   return (
     
 
-    <div className="crousel-container">
+    <div className="crousel-container w-full px-4 sm:px-8 md:px-16 lg:px-32 mx-auto">
 
-      <h1>
+      <h1 className='text-red-500 font-medium text-2xl sm:text-3xl md:text-4xl uppercase mb-8 text-center'>
         {Header}
       </h1>
       
       <Slider {...settings}>
-
-        <CrouselCard Para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." Name="John Doe" Role="CEO, Company" Image="https://img.freepik.com/free-photo/young-handsome-office_23-2148474918.jpg?w=740&t=st=1696545721~exp=1696546321~hmac=3a5f0d1e3e2e4f0f5f6e8e6c6e8e6c6e8e6c6e8e6c6e8e6c6e8e6c6e8e6c6e8" />
-
+        <div className='flex justify-center'>
+        <CrouselCard 
+        Para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." 
+        Name={<><span className='text-lg font-medium text-blue-800'>HESHAM ABDULLA</span>, Co-Founder HexiTime</>} Image="CEO.png" />
+        </div>
 
          <CrouselCard Para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." Name="John Doe" Role="CEO, Company" Image="https://img.freepik.com/free-photo/young-handsome-office_23-2148474918.jpg?w=740&t=st=1696545721~exp=1696546321~hmac=3a5f0d1e3e2e4f0f5f6e8e6c6e8e6c6e8e6c6e8e6c6e8e6c6e8e6c6e8e6c6e8" />
 

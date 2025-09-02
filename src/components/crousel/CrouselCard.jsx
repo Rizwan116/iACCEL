@@ -4,12 +4,12 @@ const CrouselCard = ({Header,Para,Name,Role,Image}) => {
     return (
         <div>
              <div>
-        <div className='flex gap-10 justify-center items-left mt-20 mb-20'>
+        <div className='flex-col lg:flex-row items-center lg:items-center px-4 py-8 w-full max-w-2xl mx-auto lg:gap-8'>
           <div>
-            {Image && <img src={Image} alt="Person" className="w-48 h-48 rounded-full object-cover" />}
+            {Image && <img src={Image} alt="Person" className="w-24 h-24 sm:w-32 sm:h-32 rounded-full object-cover mb-6 lg:mb-0 lg:mr-8" />}
           </div>
           <div>
-            <p>{Para}</p>
+            <p  className='mt-14 text-lg'>{Para}</p>
              <p>{Name}</p>
               <p>{Role}</p>
           </div>
