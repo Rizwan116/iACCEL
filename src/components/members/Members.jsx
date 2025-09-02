@@ -5,7 +5,11 @@ const Members = ({Header,Para,Members}) => {
     return (
         <div>
           <div style={{}} className='flex gap-10 justify-center text-left py-20 px-52 items-center'>
+<<<<<<< HEAD
              <div className='w-'>
+=======
+             <div>
+>>>>>>> recovery-branch
              <h1 className='font-medium text-5xl uppercase'>
                 {Header}
             </h1>
