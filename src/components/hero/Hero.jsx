@@ -12,11 +12,11 @@ function Hero({ backgroundImage, title, text, subtext }) {
     >
       <div className="bg-black bg-opacity-50 p-4 sm:p-8 md:p-10 rounded-lg shadow-2xl w-full h-full flex flex-col absolute inset 0 z-10 z-0 items-center justify-center">
         
-        <h1 className="text-3xl sm:text-5xl md:text-6xl mb-6 animate-fade-in-down w-full max-w-3xl">
+        <h1 className="text-3xl sm:text-5xl md:text-6xl mb-6 animate-fade-in-down w-full max-w-6xl pt-28">
           {title}
         </h1>
         
-        <p className="text-base sm:text-lg md:text-xl  mb-4 max-w-2xl">{text}</p>
+        <p style={{textAlign:'left'}} className="'text-3xl sm:text-2xl md:text-1xl mb-6 animate-fade-in-down w-full max-w-6xl">{text}</p>
         <p className="text-base sm:text-lg md:text-xl  mb-8 max-w-2xl">{subtext}</p>
       </div>
     </div>

@@ -47,64 +47,32 @@ function Crousel({Header}) {
   return (
     
 
-    <div className="crousel-container w-full px-4 sm:px-8 md:px-16 lg:px-32 mx-auto">
+    <div className="crousel-container w-full px-4 sm:px-8 md:px-16 lg:px-32 mx-auto py-28">
 
-      <h1 className='text-red-500 font-medium text-2xl sm:text-3xl md:text-4xl uppercase mb-8 text-center'>
+      <h1 style={{color:'#ea2935'}} className='pb font-medium text-2xl uppercase mb-8 text-left px-24'>
         {Header}
       </h1>
       
       <Slider {...settings}>
-        <div className='flex justify-center'>
+        
         <CrouselCard 
-        Para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." 
-        Name={<><span className='text-lg font-medium text-blue-800'>HESHAM ABDULLA</span>, Co-Founder HexiTime</>} Image="CEO.png" />
-        </div>
+        Para={<>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />Sed do eiusmod tempor incididunt ut
+        labore et dolore magna <br />  aliqua.Lorem ipsum dolor sit amet,  consectetur adipiscing elit.  Sed do eiusmod <br />  tempor incididunt ut labore et dolore <br /> magna aliqua" </>}
+        Role=" Co-Founder HexiTime"
+        Name="HESHAM ABDULLA" Image="CEO.png" />
+        
 
-         <CrouselCard Para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." Name="John Doe" Role="CEO, Company" Image="https://img.freepik.com/free-photo/young-handsome-office_23-2148474918.jpg?w=740&t=st=1696545721~exp=1696546321~hmac=3a5f0d1e3e2e4f0f5f6e8e6c6e8e6c6e8e6c6e8e6c6e8e6c6e8e6c6e8e6c6e8" />
+         <CrouselCard 
+        Para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" 
+        Role=" Co-Founder HexiTime"
+        Name="HESHAM ABDULLA" Image="CEO.png" />
 
-
-           <CrouselCard Para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." Name="John Doe 3" Role="CEO, Company 3" Image="https://img.freepik.com/free-photo/young-handsome-office_23-2148474918.jpg?w=740&t=st=1696545721~exp=1696546321~hmac=3a5f0d1e3e2e4f0f5f6e8e6c6e8e6c6e8e6c6e8e6c6e8e6c6e8e6c6e8e6c6e8" />
-      {/* <div>
-        <div className='flex gap-10 justify-center items-left mt-20 mb-20'>
-          <div>
-            {Image && <img src={Image} alt="Person" className="w-48 h-48 rounded-full object-cover" />}
-          </div>
-          <div>
-            <p>{Para}</p>
-             <p>{Name}</p>
-              <p>{Role}</p>
-          </div>
-        </div>
-      </div> */}
-
-      {/* <div>
-        <div className='flex gap-10 justify-center items-left mt-20 mb-20'>
-          <div>
-            {Image && <img src={Image} alt="Person" className="w-48 h-48 rounded-full object-cover" />}
-          </div>
-          <div>
-            <p>{Para}</p>
-             <p>{Name}</p>
-              <p>{Role}</p>
-          </div>
-        </div>
-      </div> */}
-
-     {/* <div>
-        <div className='flex gap-10 justify-center items-left mt-20 mb-20'>
-          <div>
-            {Image && <img src={Image} alt="Person" className="w-48 h-48 rounded-full object-cover" />}
-          </div>
-          <div>
-            <p>{Para}</p>
-             <p>{Name}</p>
-              <p>{Role}</p>
-          </div>
-        </div>
-      </div> */}
-
-
-    
+         <CrouselCard 
+        Para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" 
+        Role=" Co-Founder HexiTime"
+        Name="HESHAM ABDULLA" Image="CEO.png" />
+      
     </Slider>
 
       </div>

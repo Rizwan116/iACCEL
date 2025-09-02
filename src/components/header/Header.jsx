@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
+import Logo from '../../../public/LogoAcl.png'
 import './Header.css'
 
 function Header() {
@@ -38,15 +39,15 @@ function Header() {
 
   return (
     <header
-      style={{ backgroundColor: "#1e295c" }}
-      className="fixed top-0 left-0 right-0 shadow-lg py-4 z-50"
+      style={{ backgroundColor: "#1e295c", textTransform: "uppercase" }}
+      className="fixed top-0 left-0 right-0 shadow-lg py-7 z-50"
     >
       <nav className="flex items-center justify-between max-w-6xl mx-auto px-6">
         {/* Logo */}
         <div className="flex items-center space-x-4">
           <NavLink to="/home">
             <img
-              src="../../../public/LogoAcl.png"
+              src={Logo}
               alt="Logo"
               className="h-10 object-contain transition-transform duration-500 transform hover:scale-105"
             />
@@ -54,7 +55,7 @@ function Header() {
         </div>
 
         {/* Desktop Navigation */}
-        <ul className="hidden md:flex space-x-8 text-white font-semibold text-lg">
+        <ul className="hidden md:flex space-x-8 text-white font-semibold text-md">
           {navLinks.map((link) => (
             <li key={link.path}>
               <NavLink
