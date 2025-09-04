@@ -18,7 +18,9 @@ const ServiceCard = () => {
 
     return (
         <div>
-               <div className="container mx-auto px-6 py-20 md:py-36 max-w-6xl  items-center gap-8">
+               <div  data-sal="fade"
+        data-sal-delay="600"
+        data-sal-duration="800" className="container mx-auto px-10 md:px-6 py-20 md:py-36 max-w-6xl  items-center gap-8">
       {/* Heading */}
       <h2 className="text-2xl md:text-4xl font-semibold mb-8 blue">Market Access</h2>
 

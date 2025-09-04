@@ -63,7 +63,7 @@ function Header() {
                 className={({ isActive }) =>
                   `transition-transform duration-300 transform ${
                     isActive
-                      ? "text-yellow-300 scale-110"
+                      ? "red font-bold scale-110"
                       : "text-white hover:text-yellow-300"
                   }`
                 }

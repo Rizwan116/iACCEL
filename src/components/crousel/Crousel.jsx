@@ -47,9 +47,11 @@ function Crousel({Header}) {
   return (
     
 
-    <div className="crousel-container w-full px-0 md:px-16 lg:px-32 mx-auto py-14 md:py-28">
+    <div  data-sal="fade"
+        data-sal-delay="400"
+        data-sal-duration="800" className="crousel-container w-full px-0 md:px-16 lg:px-32 mx-auto py-14 md:py-28">
 
-      <h1 style={{color:'#ea2935'}} className='pb font-medium text-2xl uppercase mb-8 text-left px-3 md:px-24'>
+      <h1 style={{color:'#ea2935'}} className='font-medium text-2xl uppercase mb-8 text-left px-10 md:px-24'>
         {Header}
       </h1>
       
@@ -57,19 +59,23 @@ function Crousel({Header}) {
         
         <CrouselCard 
         Para={<>
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />Sed do eiusmod tempor incididunt ut
-        labore et dolore magna <br />  aliqua.Lorem ipsum dolor sit amet,  consectetur adipiscing elit.  Sed do eiusmod <br />  tempor incididunt ut labore et dolore <br /> magna aliqua" </>}
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br className='hidden md:block' />Sed do eiusmod tempor incididunt ut
+        labore et dolore magna <br className='hidden md:block' />  aliqua.Lorem ipsum dolor sit amet,  consectetur adipiscing elit.  Sed do eiusmod <br className='hidden md:block' />  tempor incididunt ut labore et dolore <br /> magna aliqua" </>}
         Role=" Co-Founder HexiTime"
         Name="HESHAM ABDULLA" Image="CEO.png" />
         
 
          <CrouselCard 
-        Para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" 
+       Para={<>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br className='hidden md:block' />Sed do eiusmod tempor incididunt ut
+        labore et dolore magna <br className='hidden md:block' />  aliqua.Lorem ipsum dolor sit amet,  consectetur adipiscing elit.  Sed do eiusmod <br className='hidden md:block' />  tempor incididunt ut labore et dolore <br /> magna aliqua" </>}
         Role=" Co-Founder HexiTime"
         Name="HESHAM ABDULLA" Image="CEO.png" />
 
          <CrouselCard 
-        Para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" 
+       Para={<>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br className='hidden md:block' />Sed do eiusmod tempor incididunt ut
+        labore et dolore magna <br className='hidden md:block' />  aliqua.Lorem ipsum dolor sit amet,  consectetur adipiscing elit.  Sed do eiusmod <br className='hidden md:block' />  tempor incididunt ut labore et dolore <br /> magna aliqua" </>}
         Role=" Co-Founder HexiTime"
         Name="HESHAM ABDULLA" Image="CEO.png" />
       

@@ -16,7 +16,9 @@ const SliderSection = ({ Images,Header,Text,Para,Line,Emp }) => {
   {Emp}
 </div>
 {/* min-h-[525px] */}
- <section style={{backgroundColor:'#fff'
+ <section  data-sal="zoom-in"
+        data-sal-delay="600"
+        data-sal-duration="800" style={{backgroundColor:'#fff'
  }} className="pt-10 md:pt-0 px-4 sm:px-8 md:px-16 lg:px-[150px] slider-container h-auto  pb-20">
       <div className='flex flex-col items-start'>
         <div>

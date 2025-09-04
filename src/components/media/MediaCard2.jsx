@@ -4,7 +4,9 @@ import './Media.css'
 const MediaCard2 = ({Profile, Item, Dates, Btn}) => {
     return (
        <>
-        <div className='flex mb-4 gap-7'>
+        <div  data-sal="slide-left"
+        data-sal-delay="600"
+        data-sal-duration="800" className='flex mb-4 gap-7'>
                    <div className='flex gap-8'>
                    <div className='w-full'>
                      <img src={Profile} alt="" className='w-full' />

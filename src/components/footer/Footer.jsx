@@ -19,7 +19,9 @@ import { faLocationDot, faPhoneVolume,faEnvelope  } from "@fortawesome/free-soli
 function Footer() {
   return (
     <footer style={{backgroundColor:'#1e295c'}} className=" text-white py-8">
-      <div className="container mx-auto px-6">
+      <div  data-sal="fade"
+        data-sal-delay="300"
+        data-sal-duration="800" className="container mx-auto px-6">
         {/* Footer Top Section */}
         <div className="flex flex-wrap justify-around mb-8 mt-10 px-0 md:px-40">
           {/* Logo */}
@@ -128,7 +130,9 @@ function Footer() {
 
            <div className='flex flex-col justify-between w-3/4 md:w-1/6 '>
               {/* <h2 className="text-lg font-semibold mb-4">FOLLOW US</h2> */}
-               <img
+               <img  data-sal="flip-up"
+        data-sal-delay="600"
+        data-sal-duration="800" 
               src="./certificate.png" // Replace with your logo URL
               alt="Logo"
               className="h-40 md:h-28 object-contain my-12 md:my-0"

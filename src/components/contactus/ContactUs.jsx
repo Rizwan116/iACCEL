@@ -4,6 +4,9 @@ import ContactInfo from './ContactInfo';
 import Hero from '../hero/Hero';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { NavLink } from 'react-router-dom';
+import "sal.js/dist/sal.css";
+import sal from "sal.js";
+import { useEffect } from "react";
 
 import {
   faFacebookF,
@@ -16,6 +19,12 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 function ContactUs() {
+   useEffect(() => {
+            sal({
+              threshold: 0.1,  // 10% of element visible before animation starts
+              once: true,      // animate only once
+            });
+          }, []);
   return (
     <div>
       <Hero backgroundImage="./ContactUpBanner.jpg"
@@ -30,9 +39,11 @@ function ContactUs() {
      />
 
      <div style={{backgroundColor:'#ededed'}} className=''>
-      <div className='flex flex-col md:flex-row px-4 md:px-56 py-5 md:py-20 gap-5'>
+      <div  data-sal="zoom-in"
+        data-sal-delay="600"
+        data-sal-duration="800"  className='flex flex-col md:flex-row px-10 md:px-56 py-5 md:py-20 gap-5'>
           
-          <div className='w-full md:w-4/6'>
+          <div  className='w-full md:w-4/6'>
             <h1 style={{color:'#1e295c'}} className='text-3xl md:text-4xl pb-5'>We are always ready <br /> to help you ad answer <br /> your questions</h1>
 
              <p className='pb-6 text-lg md:text-base'>Lorem ipsum dolor sit amet consectetur, <br /> adipisicing elit. Autem commodi modi excepturi <br /> quae minima eveniet!</p>
@@ -46,7 +57,9 @@ function ContactUs() {
                         <ContactInfo Name="Office time" Info={<>Monday - Friday<br /> 09 00 AM - 06 00 PM</>} />
 
                     
-                          <div className='mt-9'>
+                          <div  data-sal="flip-right"
+        data-sal-delay="800"
+        data-sal-duration="1200"   className='mt-9'>
                                         <h2 className="font-bold mb-3 text-xl md:text-base">Social Network</h2>
                                       
                                       

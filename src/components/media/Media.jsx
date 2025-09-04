@@ -4,8 +4,17 @@ import './Media.css';
 import Hero from '../hero/Hero';
 import MediaCard1 from './MediaCard1';
 import MediaCard2 from './MediaCard2';
+import "sal.js/dist/sal.css";
+import sal from "sal.js";
+import { useEffect } from "react";
 
 function Media() {
+    useEffect(() => {
+        sal({
+          threshold: 0.1,  // 10% of element visible before animation starts
+          once: true,      // animate only once
+        });
+      }, []);
   
   return (
     <div>
@@ -21,16 +30,20 @@ function Media() {
      />
      
 
-        <div>
+        <div  data-sal="fade"
+        data-sal-delay="400"
+        data-sal-duration="800">
 
-            <h1 style={{color:'#1e295c'}} className='px-8 md:px-44 text-3xl md:text-6xl py-10 md:py-20 '>
+            <h1 style={{color:'#1e295c'}} className='px-10 md:px-44 text-3xl md:text-6xl py-10 md:py-20 '>
               stay updated with news, <br />
               press realser and stories driving <br />
               our global journey
             </h1>
 
         </div>
-           <div className='flex flex-col md:flex-row w-full justify-around px-10 md:px-36'>
+           <div  data-sal="fade"
+        data-sal-delay="400"
+        data-sal-duration="800" className='flex flex-col md:flex-row w-full justify-around px-10 md:px-36'>
              <div className='w-full md:w-2/5'>
               <MediaCard1 Image="/Media1.png" Title={<>IAN GROUP and IACCEL GBI partnership</>} Discription={<>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati distinctio quos cum fuga consequuntur temporibus sequi dignissimos nisi fugit natus, totam at, modi nobis? Porro alias similique hic animi sequi?</>} Date="08 June 2025" Cta="Read More" />
 

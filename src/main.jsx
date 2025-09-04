@@ -30,6 +30,7 @@ import NotFound from './components/Error/NotFount.jsx';
 import { HelmetProvider } from "react-helmet-async";
 import Page from './Page.jsx';
 
+
 const router = createBrowserRouter(
   createRoutesFromElements(
      <Route path="/" element={<Layout />}>

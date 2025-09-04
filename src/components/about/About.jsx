@@ -11,7 +11,7 @@ function About() {
         <Hero backgroundImage="./HeroBannerImage.jpg"
          subtext="ABOUT US"
       title={
-      <> Your Gateway <br /> to MENA <br /> Growth
+      <> Your Gateway <br className='hidden md:block' /> to MENA <br /> Growth
       
        </>
       }
@@ -19,7 +19,7 @@ function About() {
       // subtext="Explore how our services can help you achieve your goals and connect with like-minded individuals."
      />
 
-        <Data BackGroundImage="./HomeBanner.png" Para={<>Using Dubai as your strategic launchpad, <br /> we offer comprehensive services including <br /> company formation, office space, a <br /> high-touch market access model, <br /> government engagement, enterprise <br /> partnerships, and investor connectivity.</>}  Stats1={<>25<sup style={{top:'-0.8em', fontSize:'61%'}}>+</sup></>} Stats2={<>500<sup style={{top:'-0.8em', fontSize:'61%'}}>+</sup></>} Stats3={<>06</>} Stats4={<>22</>} Head1={<>Startups <br /> Launched</>} Head2={<>Industries <br /> Experts</>} Line2={ <>
+        <Data BackGroundImage="./HomeBanner.png" Para={<>Using Dubai as your strategic launchpad, <br className='hidden md:block' /> we offer comprehensive services including <br className='hidden md:block' /> company formation, office space, a <br className='hidden md:block' /> high-touch market access model, <br className='hidden md:block' /> government engagement, enterprise <br className='hidden md:block' /> partnerships, and investor connectivity.</>}  Stats1={<>25<sup style={{top:'-0.8em', fontSize:'61%'}}>+</sup></>} Stats2={<>500<sup style={{top:'-0.8em', fontSize:'61%'}}>+</sup></>} Stats3={<>06</>} Stats4={<>22</>} Head1={<>Startups <br /> Launched</>} Head2={<>Industries <br /> Experts</>} Line2={ <>
     <div
       style={{ borderRight: "1.5px solid #1e295c", height: "70%" }}
       className="mt-16"
@@ -34,15 +34,19 @@ function About() {
        <Members BackGroundColor="#fff" Color="#000" Header={<><span style={{color:'#1e295c'}}>Our Mentor <br /> Board</span></>} Para="Explore how our services can help you achieve your goals and connect with like-minded individuals.Explore how our services can help you achieve your goals and connect with like-minded individuals.Explore how our Explore how our services can help you achieve your goals and connect with like-minded individuals." Members={['/FounderMembery.png', 'FounderMembery2.png', 'FounderMembery1.png',]} />
 
 
-      <div className="flex flex-col md:flex-row items-center justify-end w-full mob-h" style={{ backgroundImage: `url("/JoinUs.jpg")`,
+      <div  data-sal="fade"
+        data-sal-delay="400"
+        data-sal-duration="800" className="flex flex-col md:flex-row items-center justify-end w-full mob-h" style={{ backgroundImage: `url("/JoinUs.jpg")`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     height: "380px",
     width: "100%",}}>
-      <div className='flex flex-col w-4/5 md:w-2/5'>
+      <div  data-sal="slide-right"
+        data-sal-delay="400"
+        data-sal-duration="800" className='flex flex-col w-4/5 md:w-2/5'>
         
         <div className="w-full md:w-3/4  text-white flex flex-col justify-center px-0 py-10 md:py-0">
-            <p style={{color:'#fff',}} className='text-lg md:text-1xl mb-2'>Lorem, ipsum dolor sit amet consectetur adipisicing <br />elit. Accusamus in reprehenderit laborum. <br /> Voluptate, laborum in.</p>
+            <p style={{color:'#fff',}} className='text-lg md:text-1xl mb-2'>Lorem, ipsum dolor sit amet consectetur adipisicing <br className='hidden md:block' />elit. Accusamus in reprehenderit laborum. <br className='hidden md:block' /> Voluptate, laborum in.</p>
         </div>
 
         <div>

@@ -7,8 +7,18 @@ import Crousel from '../crousel/Crousel';
 import SliderSection from '../slider/SliderSection';
 import Infos from './Infos';
 import SliderSectionTwo from '../slider/SliderSectionTwo'
+import "sal.js/dist/sal.css";
+import sal from "sal.js";
+import { useEffect } from "react";
+
 
 function About() {
+   useEffect(() => {
+          sal({
+            threshold: 0.1,  // 10% of element visible before animation starts
+            once: true,      // animate only once
+          });
+        }, []);
   return (
     <div>
      <Hero backgroundImage="./CommunityBanner.jpg"

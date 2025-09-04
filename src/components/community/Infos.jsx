@@ -8,7 +8,9 @@ const Infos = ({Header,Para}) => {
       <div className="max-w-6xl mx-auto px-6 pt-14 pb-0 grid md:grid-cols-[1fr_2fr] gap-2">
         
         {/* Left Column (Headings) */}
-        <div className="space-y-32">
+        <div  data-sal="slide-right"
+        data-sal-delay="600"
+        data-sal-duration="800" className="space-y-32">
           <h2 className="text-xl md:text-5xl font-semibold text-[#fff]">
            {Header}
           </h2>
@@ -16,7 +18,9 @@ const Infos = ({Header,Para}) => {
         </div>
 
         {/* Right Column (Descriptions) */}
-        <div className="space-y-12 text-[#fff]">
+        <div  data-sal="slide-left"
+        data-sal-delay="600"
+        data-sal-duration="800" className="space-y-12 text-[#fff]">
           {/* Investor Connects */}
           <div>
            <p>

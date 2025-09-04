@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+
+.height-mobile {
+    height: 300px!important;
+}
+}

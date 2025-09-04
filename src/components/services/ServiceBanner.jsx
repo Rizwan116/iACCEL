@@ -15,10 +15,14 @@ const ServiceBanner = ({Title, Para, backgroundImage, BottomPara, BottomPara2, B
                 <p>{BottomPara3}</p>
                 </div> */}
 
-     <section className="flex flex-col justify-center items-center  bg-cover bg-center text-black pb-0 md:pb-0 min-h-[40vh] md:min-h-[92vh]"   style={{ backgroundImage: `url(${backgroundImage})` }}>
-      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-8">
+     <section  data-sal="slide-up"
+        data-sal-delay="400"
+        data-sal-duration="800" className="flex flex-col justify-center items-center  bg-cover bg-center text-black pb-0 md:pb-0 min-h-[40vh] md:min-h-[92vh]"   style={{ backgroundImage: `url(${backgroundImage})` }}>
+      <div className="max-w-6xl mx-auto px-10 md:px-6 flex flex-col md:flex-row items-center gap-8">
         {/* Left Content */}
-        <div className="flex-1">
+        <div   data-sal="slide-right"
+        data-sal-delay="700"
+        data-sal-duration="800" className="flex-1">
           <h2 className="text-2xl md:text-5xl  mb-10">
              {Title}
           </h2>
