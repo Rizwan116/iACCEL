@@ -27,26 +27,31 @@ import Github, { githubInfoLoader } from './components/github/Github.jsx';
 import SignUp from './components/signup/SignUp.jsx';
 import Insight from './components/insight/Insight.jsx';
 import NotFound from './components/Error/NotFount.jsx';
+import { HelmetProvider } from "react-helmet-async";
+import Page from './Page.jsx';
+
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Layout />}>
-      <Route index element={<Home />} /> 
-      <Route path="/home" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/services" element={<Services />} />
-      <Route path="/media" element={<Media />} />
-      <Route path="/community" element={<Community />} />
-      <Route path="/contactus" element={<ContactUs />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/discord" element={<Discord />} />
-      <Route path="/privacyPolicy" element={<PrivacyAndPolicy />} />
-      <Route path="/termsAndConditions" element={<TermsAndConditions />} />
-      <Route path="/github" loader={githubInfoLoader} element={<Github />} />
-       <Route path="/Insight" element={<Insight />} />
-      <Route path="/SignUp" element={<SignUp />} />
-      <Route path="*" element={<NotFound />} />
+     <Route path="/" element={<Layout />}>
+      <Route index element={<Page title="Home"><Home /></Page>} />
+      <Route path="home" element={<Page title="Home"><Home /></Page>} />
+      <Route path="about" element={<Page title="About"><About /></Page>} />
+      <Route path="services" element={<Page title="Services"><Services /></Page>} />
+      <Route path="media" element={<Page title="Media"><Media /></Page>} />
+      <Route path="community" element={<Page title="Community"><Community /></Page>} />
+      <Route path="contactus" element={<Page title="Contact Us"><ContactUs /></Page>} />
+      <Route path="login" element={<Page title="Login"><Login /></Page>} />
+      <Route path="discord" element={<Page title="Discord"><Discord /></Page>} />
+      <Route path="privacyPolicy" element={<Page title="Privacy Policy"><PrivacyAndPolicy /></Page>} />
+      <Route path="termsAndConditions" element={<Page title="Terms & Conditions"><TermsAndConditions /></Page>} />
+      <Route path="github" loader={githubInfoLoader} element={<Page title="Github"><Github /></Page>} />
+      <Route path="insight" element={<Page title="Insight"><Insight /></Page>} />
+      <Route path="signup" element={<Page title="Sign Up"><SignUp /></Page>} />
+
+      {/* 404 */}
+      <Route path="*" element={<Page title="404"><NotFound /></Page>} />
     </Route>,
   ),
 );
