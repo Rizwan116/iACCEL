@@ -19,7 +19,7 @@ function About() {
       // subtext="Explore how our services can help you achieve your goals and connect with like-minded individuals."
      />
 
-        <Data BackGroundImage="public/HomeBanner.png" Para={<>Using Dubai as your strategic launchpad, <br /> we offer comprehensive services including <br /> company formation, office space, a <br /> high-touch market access model, <br /> government engagement, enterprise <br /> partnerships, and investor connectivity.</>}  Stats1={<>25<sup style={{top:'-0.8em', fontSize:'61%'}}>+</sup></>} Stats2={<>500<sup style={{top:'-0.8em', fontSize:'61%'}}>+</sup></>} Stats3={<>06</>} Stats4={<>22</>} Head1={<>Startups <br /> Launched</>} Head2={<>Industries <br /> Experts</>} Line2={ <>
+        <Data BackGroundImage="./HomeBanner.png" Para={<>Using Dubai as your strategic launchpad, <br /> we offer comprehensive services including <br /> company formation, office space, a <br /> high-touch market access model, <br /> government engagement, enterprise <br /> partnerships, and investor connectivity.</>}  Stats1={<>25<sup style={{top:'-0.8em', fontSize:'61%'}}>+</sup></>} Stats2={<>500<sup style={{top:'-0.8em', fontSize:'61%'}}>+</sup></>} Stats3={<>06</>} Stats4={<>22</>} Head1={<>Startups <br /> Launched</>} Head2={<>Industries <br /> Experts</>} Line2={ <>
     <div
       style={{ borderRight: "1.5px solid #1e295c", height: "70%" }}
       className="mt-16"
