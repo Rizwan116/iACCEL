@@ -2,10 +2,10 @@ import React from 'react';
 
 const ContactInfo = ({Name, Info}) => {
     return (
-        <div>
-            <div>
-                 <h4>{Name}</h4>
-                <p>{Info}</p>
+        <div className=''>
+            <div className='mt-5 mb:mt-8'>
+                 <b><h4 className='text-xl md:text-base'>{Name}</h4></b>
+                <p className='text-lg md:text-base'>{Info}</p>
             </div>
         </div>
     );

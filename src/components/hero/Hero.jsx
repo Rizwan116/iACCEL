@@ -7,17 +7,19 @@ import React from "react";
 function Hero({ backgroundImage, title, text, subtext }) {
   return (
     <div
-      className="flex flex-col justify-center items-center min-h-screen bg-cover bg-center text-white relative"
-      style={{ backgroundImage: `url(${backgroundImage})` } }
+      className="flex flex-col justify-center items-center min-h-screen bg-cover bg-center text-white relative mobile "
+  style={{ backgroundImage: `url(${backgroundImage})` }}
     >
-      <div className="bg-black bg-opacity-50 p-4 sm:p-8 md:p-10 rounded-lg shadow-2xl w-full h-full flex flex-col absolute inset 0 z-10 z-0 items-center justify-center">
-        
-        <h1 className="text-3xl sm:text-5xl md:text-6xl mb-6 animate-fade-in-down w-full max-w-6xl pt-28">
+     
+      <div className="bg-black bg-opacity-50  shadow-2xl w-full h-full flex flex-col absolute inset 0 z-10 z-0 items-center justify-center">
+         
+        <h1 className="pl-10 md:pl-0 text-4xl sm:text-5xl md:text-6xl mb-6 animate-fade-in-down w-full max-w-6xl pt-28 ">
+          <span style={{color:'red',}} className="text-3xl md:text-1xl leading-[3rem] animate-fade-in-down w-full max-w-6xl">{subtext}</span><br />
           {title}
         </h1>
         
-        <p style={{textAlign:'left'}} className="'text-3xl sm:text-2xl md:text-1xl mb-6 animate-fade-in-down w-full max-w-6xl">{text}</p>
-        <p className="text-base sm:text-lg md:text-xl  mb-8 max-w-2xl">{subtext}</p>
+        <p style={{textAlign:'left'}} className="'text-3xl sm:text-2xl md:text-1xl mb-6 animate-fade-in-down w-full max-w-6xl pl-10 md:pl-0 pr-5 md:pr-0">{text}</p>
+        
       </div>
     </div>
   );

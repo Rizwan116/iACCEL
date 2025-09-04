@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.red {
+    color: #ea2935;
+}
+.blue {
+    color: #1a2456;
+}

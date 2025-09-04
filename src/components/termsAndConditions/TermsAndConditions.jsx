@@ -7,9 +7,9 @@ const BACKGROUND_IMAGE_URL =
 function TermsAndConditions() {
   return (
     <div
-      className="relative mt-10 min-h-screen flex items-center justify-center bg-gray-900"
+      className="relative mt-24 min-h-screen flex items-center justify-center bg-gray-900 py-10"
       style={{
-        backgroundImage: `url(${BACKGROUND_IMAGE_URL})`,
+        // backgroundImage: `url(${BACKGROUND_IMAGE_URL})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}

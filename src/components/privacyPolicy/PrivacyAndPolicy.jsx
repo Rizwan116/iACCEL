@@ -7,9 +7,9 @@ const BACKGROUND_IMAGE_URL =
 function PrivacyAndPolicy() {
   return (
     <div
-      className="relative min-h-screen mt-8 flex items-center justify-center bg-gray-900"
+      className="relative min-h-screen mt-24 flex items-center justify-center bg-gray-900 py-10"
       style={{
-        backgroundImage: `url(${BACKGROUND_IMAGE_URL})`,
+        // backgroundImage: `url(${BACKGROUND_IMAGE_URL})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
@@ -19,7 +19,7 @@ function PrivacyAndPolicy() {
         <h1 className="text-4xl font-extrabold text-center mb-8">
           Privacy Policy
         </h1>
-        <p className="text-lg mb-6">
+        <p className="text-xl mb-6">
           We value your privacy and are committed to protecting your personal
           data. This Privacy Policy explains how we collect, use, and disclose
           your information when you visit our website or use our services.

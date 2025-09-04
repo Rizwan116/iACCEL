@@ -1,0 +1,11 @@
+
+@media (max-width: 768px) {
+  .mobile {
+    background-size: contain;   /* make whole image visible on small screens */
+    background-position: top;   /* adjust position for better visibility */
+    /* optional: reduce height on mobile */
+  }
+  .min-h-screen {
+min-height: 70vh !important;           
+  }
+}

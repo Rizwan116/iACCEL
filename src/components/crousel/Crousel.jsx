@@ -47,9 +47,9 @@ function Crousel({Header}) {
   return (
     
 
-    <div className="crousel-container w-full px-4 sm:px-8 md:px-16 lg:px-32 mx-auto py-28">
+    <div className="crousel-container w-full px-0 md:px-16 lg:px-32 mx-auto py-14 md:py-28">
 
-      <h1 style={{color:'#ea2935'}} className='pb font-medium text-2xl uppercase mb-8 text-left px-24'>
+      <h1 style={{color:'#ea2935'}} className='pb font-medium text-2xl uppercase mb-8 text-left px-3 md:px-24'>
         {Header}
       </h1>
       

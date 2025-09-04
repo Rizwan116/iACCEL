@@ -94,7 +94,7 @@ function Header() {
       {menuOpen && (
         <ul
           ref={menuRef}
-          className="md:hidden fixed top-16 left-0 right-0 flex flex-col items-center space-y-6 bg-[#1e295c] text-white font-semibold text-lg py-6 z-50"
+          className="md:hidden fixed top-22 left-0 right-0 flex flex-col items-center space-y-6 bg-[#1e295c] text-white font-semibold text-lg py-6 z-50"
         >
           {navLinks.map((link) => (
             <li key={link.path}>

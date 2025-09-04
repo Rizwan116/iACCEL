@@ -5,27 +5,96 @@ import ServiceBanner from '../services/ServiceBanner';
 import Slider from 'react-slick';
 import Crousel from '../crousel/Crousel';
 import SliderSection from '../slider/SliderSection';
+import Infos from './Infos';
+import SliderSectionTwo from '../slider/SliderSectionTwo'
 
 function About() {
   return (
     <div>
-      <Hero backgroundImage="" title="Community" text="Connecting Visinories Driving Change" />
+     <Hero backgroundImage="./CommunityBanner.jpg"
+         subtext="COMMUNITY"
+      title={
+      <> Connecting <br /> Visionaries<br />Driving Change 
+      
+       </>
+      }
+      
+      // subtext="Explore how our services can help you achieve your goals and connect with like-minded individuals."
+     />
 
-      <ServiceBanner Background="" Para="lorem lorem lorem lorem lorem lorem lorem" />
+      <ServiceBanner Para={<><div className='text-lg'>
+        The iACCEL GBI Network is a growing community of 
+            SMEs, industry experts, ecosystem enablers, and 
+            global investors driving startup acceleration 
+            through targeted matchmaking. We connect founders 
+            with support mentors, ecosystem players, investors, 
+            and corporates, accelerating growth & market entry, 
+            and operational excellence.</div></>} backgroundImage={'/CommunityBanner2.jpg'} />
 
-      <SliderSection Header = "Startups" Text = "Where Startups Meet Success" Images = {['https://imgs.search.brave.com/mK7JRffijLaxpK-CJAdR7BHXnEWq316kd3S6-zsgtYc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9wbGFj/ZWl0LWltZy0xLXAu/Y2RuLmF3cy5wbGFj/ZWl0Lm5ldC91cGxv/YWRzL3N0YWdlL3N0/YWdlX2ltYWdlLzU3/ODA2L29wdGltaXpl/ZF9sYXJnZV90aHVt/Yl9zdGFnZS5qcGc', 'https://imgs.search.brave.com/h_MIoNSGirjfVZXrQbK_eto3brTBYrBWi2wxKKbtJaQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/bG9nb2Rlc2lnbi5u/ZXQvaW1hZ2VzL2hv/bWUtbG9nb3MvQ2xl/YW5pbmctbG9nby0t/LXdhdGVyLWRyb3At/aW4tYS1oZXhhZ29u/LXNoYXBlLmpwZw', 'https://imgs.search.brave.com/UMpqa4g_brcrICB8-f4wkXHbjEvg3acXDxgndvYHuDg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hcGku/ZnJlZWxvZ29kZXNp/Z24ub3JnL2Fzc2V0/cy90aHVtYi9sb2dv/L2YyNmM2NzE1YzNh/ZDQzNjM4NjA0ODc0/YzNjMjU2MWRiXzQw/MC5wbmc', 'https://imgs.search.brave.com/UMpqa4g_brcrICB8-f4wkXHbjEvg3acXDxgndvYHuDg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hcGku/ZnJlZWxvZ29kZXNp/Z24ub3JnL2Fzc2V0/cy90aHVtYi9sb2dv/L2YyNmM2NzE1YzNh/ZDQzNjM4NjA0ODc0/YzNjMjU2MWRiXzQw/MC5wbmc', 'https://imgs.search.brave.com/UMpqa4g_brcrICB8-f4wkXHbjEvg3acXDxgndvYHuDg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hcGku/ZnJlZWxvZ29kZXNp/Z24ub3JnL2Fzc2V0/cy90aHVtYi9sb2dv/L2YyNmM2NzE1YzNh/ZDQzNjM4NjA0ODc0/YzNjMjU2MWRiXzQw/MC5wbmc', 'https://imgs.search.brave.com/UMpqa4g_brcrICB8-f4wkXHbjEvg3acXDxgndvYHuDg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hcGku/ZnJlZWxvZ29kZXNp/Z24ub3JnL2Fzc2V0/cy90aHVtYi9sb2dv/L2YyNmM2NzE1YzNh/ZDQzNjM4NjA0ODc0/YzNjMjU2MWRiXzQw/MC5wbmc', 'https://imgs.search.brave.com/UMpqa4g_brcrICB8-f4wkXHbjEvg3acXDxgndvYHuDg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hcGku/ZnJlZWxvZ29kZXNp/Z24ub3JnL2Fzc2V0/cy90aHVtYi9sb2dv/L2YyNmM2NzE1YzNh/ZDQzNjM4NjA0ODc0/YzNjMjU2MWRiXzQw/MC5wbmc', 'https://imgs.search.brave.com/UMpqa4g_brcrICB8-f4wkXHbjEvg3acXDxgndvYHuDg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hcGku/ZnJlZWxvZ29kZXNp/Z24ub3JnL2Fzc2V0/cy90aHVtYi9sb2dv/L2YyNmM2NzE1YzNh/ZDQzNjM4NjA0ODc0/YzNjMjU2MWRiXzQw/MC5wbmc']} />
+             <SliderSectionTwo  Emp = {
+      <>
+      <div>
+
+      <Infos  Header={<><div className='blue text-3xl md:text-4xl'>Startups</div></>} Para={<><div className='text-black text-justify text-xl md:text-base'>Our startups are the heart of innovation and entrepreneurship at iACCEL GBI. Driven by visionary founders and bold ideas, they are transforming industries and making a real impact across the MENA region and beyond. With access to strategic resources, mentorship, and a dynamic ecosystem, these startups are accelerating growth, solving challenges, and shaping the future. Discover the exciting ventures that are defining new possibilities and driving meaningful change.</div></>} />
+      </div>
+      </>
+       } 
+
+      
+      
+      Images = {[
+      { src: "/HomeIconSlider1.png", name: "Trustn" },
+      { src: "/HomeIconSlider1.png", name: "Trezi" },
+      { src: "/HomeIconSlider1.png", name: "We Work" },
+      { src: "/HomeIconSlider1.png", name: "Dozee" },
+      { src: "/HomeIconSlider1.png", name: "Dozee" },
+      { src: "/HomeIconSlider1.png", name: "Dozee" },
+      { src: "/HomeIconSlider1.png", name: "Dozee" },
+          ]}
+      />
+
+     <SliderSection  Emp = {
+      <>
+      <div>
+
+      <Infos  Header={<><div className='text-white text-3xl md:text-4xl'>Scaleups</div></>} Para={<><div className='text-justify text-justify text-xl md:text-base'>Our startups are the heart of innovation and entrepreneurship at iACCEL GBI. Driven by visionary founders and bold ideas, they are transforming industries and making a real impact across the MENA region and beyond. With access to strategic resources, mentorship, and a dynamic ecosystem, these startups are accelerating growth, solving challenges, and shaping the future. Discover the exciting ventures that are defining new possibilities and driving meaningful change.</div></>} />
+      </div>
+      </>
+       } 
+
+      
+      
+      Images = {[
+      { src: "/CommunityIconBox.png", name: "Trustn" },
+      { src: "/CommunityIconBox.png", name: "Trezi" },
+      { src: "/CommunityIconBox.png", name: "We Work" },
+      { src: "/CommunityIconBox.png", name: "Dozee" },
+      { src: "/CommunityIconBox.png", name: "Dozee" },
+      { src: "/CommunityIconBox.png", name: "Dozee" },
+      { src: "/CommunityIconBox.png", name: "Dozee" },
+          ]}
+      />
 
 
-     <div>
-            <SliderSection Header = "Startups" Text = "Where Startups Meet Success" Images = {['https://imgs.search.brave.com/mK7JRffijLaxpK-CJAdR7BHXnEWq316kd3S6-zsgtYc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9wbGFj/ZWl0LWltZy0xLXAu/Y2RuLmF3cy5wbGFj/ZWl0Lm5ldC91cGxv/YWRzL3N0YWdlL3N0/YWdlX2ltYWdlLzU3/ODA2L29wdGltaXpl/ZF9sYXJnZV90aHVt/Yl9zdGFnZS5qcGc', 'https://imgs.search.brave.com/h_MIoNSGirjfVZXrQbK_eto3brTBYrBWi2wxKKbtJaQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/bG9nb2Rlc2lnbi5u/ZXQvaW1hZ2VzL2hv/bWUtbG9nb3MvQ2xl/YW5pbmctbG9nby0t/LXdhdGVyLWRyb3At/aW4tYS1oZXhhZ29u/LXNoYXBlLmpwZw', 'https://imgs.search.brave.com/UMpqa4g_brcrICB8-f4wkXHbjEvg3acXDxgndvYHuDg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hcGku/ZnJlZWxvZ29kZXNp/Z24ub3JnL2Fzc2V0/cy90aHVtYi9sb2dv/L2YyNmM2NzE1YzNh/ZDQzNjM4NjA0ODc0/YzNjMjU2MWRiXzQw/MC5wbmc', 'https://imgs.search.brave.com/UMpqa4g_brcrICB8-f4wkXHbjEvg3acXDxgndvYHuDg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hcGku/ZnJlZWxvZ29kZXNp/Z24ub3JnL2Fzc2V0/cy90aHVtYi9sb2dv/L2YyNmM2NzE1YzNh/ZDQzNjM4NjA0ODc0/YzNjMjU2MWRiXzQw/MC5wbmc', 'https://imgs.search.brave.com/UMpqa4g_brcrICB8-f4wkXHbjEvg3acXDxgndvYHuDg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hcGku/ZnJlZWxvZ29kZXNp/Z24ub3JnL2Fzc2V0/cy90aHVtYi9sb2dv/L2YyNmM2NzE1YzNh/ZDQzNjM4NjA0ODc0/YzNjMjU2MWRiXzQw/MC5wbmc', 'https://imgs.search.brave.com/UMpqa4g_brcrICB8-f4wkXHbjEvg3acXDxgndvYHuDg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hcGku/ZnJlZWxvZ29kZXNp/Z24ub3JnL2Fzc2V0/cy90aHVtYi9sb2dv/L2YyNmM2NzE1YzNh/ZDQzNjM4NjA0ODc0/YzNjMjU2MWRiXzQw/MC5wbmc', 'https://imgs.search.brave.com/UMpqa4g_brcrICB8-f4wkXHbjEvg3acXDxgndvYHuDg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hcGku/ZnJlZWxvZ29kZXNp/Z24ub3JnL2Fzc2V0/cy90aHVtYi9sb2dv/L2YyNmM2NzE1YzNh/ZDQzNjM4NjA0ODc0/YzNjMjU2MWRiXzQw/MC5wbmc', 'https://imgs.search.brave.com/UMpqa4g_brcrICB8-f4wkXHbjEvg3acXDxgndvYHuDg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hcGku/ZnJlZWxvZ29kZXNp/Z24ub3JnL2Fzc2V0/cy90aHVtYi9sb2dv/L2YyNmM2NzE1YzNh/ZDQzNjM4NjA0ODc0/YzNjMjU2MWRiXzQw/MC5wbmc']} />
 
-     </div>
+     
+      <Crousel  Header ={<>
+        <div className=' md:text-3xl blue' >
+          What People say about us
+        </div>
+        </>} Para = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." Name = "John Doe" Role = "CEO, Company" Image = "https://img.freepik.com/free-photo/young-handsome-office_23-2148474918.jpg?w=740&t=st=1696545721~exp=1696546321~hmac=3a5f0d1e3e2e4f0f5f6e8e6c6e8e6c6e8e6c6e8e6c6e8e6c6e8e6c6e8e6c6e8"/>
 
-      <Crousel />
 
-
-      <ServiceBanner Background="" Title="Goverment" Para="lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem" />
-
+       <ServiceBanner Title={<><div className='blue text-3xl md:text-4xl pt-10 md:pt-0'>
+        Government
+        </div></>} Para={<><div className='text-lg text-justify'>
+        The iACCEL GBI Network is a growing community of 
+            SMEs, industry experts, ecosystem enablers, and 
+            global investors driving startup acceleration 
+            through targeted matchmaking. We connect founders 
+            with support mentors, ecosystem players, investors, 
+            and corporates, accelerating growth & market entry, 
+            and operational excellence.</div></>} backgroundImage={'/CommunityBanner3.jpg'} />
 
     </div>
   );
