@@ -26,11 +26,13 @@ import TermsAndConditions from './components/termsAndConditions/TermsAndConditio
 import Github, { githubInfoLoader } from './components/github/Github.jsx';
 import SignUp from './components/signup/SignUp.jsx';
 import Insight from './components/insight/Insight.jsx';
+import NotFound from './components/Error/NotFount.jsx';
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
+      <Route index element={<Home />} /> 
       <Route path="/home" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/services" element={<Services />} />
@@ -44,6 +46,7 @@ const router = createBrowserRouter(
       <Route path="/github" loader={githubInfoLoader} element={<Github />} />
        <Route path="/Insight" element={<Insight />} />
       <Route path="/SignUp" element={<SignUp />} />
+      <Route path="*" element={<NotFound />} />
     </Route>,
   ),
 );
