@@ -107,7 +107,7 @@ function ContactUs() {
                       <div className='mb-8 md:mb-0'>
                           <ContactInfo Name="Contact" Info={<><a style={{color:'#000'}} href="mailto:iagbi@indiaaccelerator.com">iagbi@indiaaccelerator.com</a><br /> <a style={{color:'#000'}} href="tel:+971 4 339 2968">+971 4 339 2968</a> </>} />
                           <ContactInfo Name="Whatsapp" Info={<>
-                            <a style={{color:'#000'}} href="tel:+971 4 339 2968">+97143392968</a>
+                            <a style={{color:'#000'}} href="tel:+971564039100">+971564039100</a>
                             </>} />
                       </div>
 

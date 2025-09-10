@@ -4,15 +4,15 @@ const ServiceCard = () => {
     const cards = [
     {
       img: "/MarketAccess1.png",
-      text: "Business Horizons Ltd. is a trusted authority at delivering tailored business consulting services..."
+      text: "Revenue Architect is an in-house capability of Revenue-focused Business Development. The function with local market knowledge covers both hunting and farming capabilities and spearheads client acquisition for our startups. The team focuses on pipeline management and client relations."
     },
     {
       img: "/MarketAccess2.png",
-      text: "These include transfer of industry best practices, market insights, partner networks, corporate strategy..."
+      text: "Market Access Enablers (MAES) are members of our network of 450+ industry experts, business owners, corporate leaders, and investors who provide our startups with insights, local market experience, and introductions to decision makers in prospective clients. They are committed to helping them accelerate revenue growth."
     },
     {
       img: "/MarketAccess3.png",
-      text: "We help startups and SMEs with operational performance, cost optimization and innovation..."
+      text: "We help develop and create Specialized partnerships with industry access. We enable joint value propositions and joint go-to-market partnerships through our robust network. These include partnerships with tried and trusted resellers and distributors. With their existing client bases, these partnerships shorten the sales cycle for our startups."
     }
   ];
 

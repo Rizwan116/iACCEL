@@ -63,7 +63,15 @@ function News({BackroundImage, BackroundImage2,Header,Date,Time,EventDetails,New
 
 
   <>
-<div style={{backgroundColor:'#ededed'}} className='w-full pr-0 md:pr-80 pl-0 md:pl-52 mx-auto pt-14 md:pt-24 pb-60 md:pb-40'>
+   <style>{`
+        @media (max-width: 768px) {
+.swiper-slide {
+    width: 100% !important;
+    
+}
+}
+      `}</style>
+<div style={{backgroundColor:'#ededed'}} className='w-full pr-0 md:pr-80 pl-0 md:pl-52 mx-auto pt-14 md:pt-24 pb-6 md:pb-40'>
 <h1 style={{color:'#ea2935'}} className="text-2xl mb-0 md:mb-4 font-bold px-5 md:px-0">{Header}</h1>
    <Swiper
   style={{
@@ -79,8 +87,8 @@ function News({BackroundImage, BackroundImage2,Header,Date,Time,EventDetails,New
   {slides.map((slide, index) => (
     <SwiperSlide key={index}>
       <div
-        style={{ height: "360px" }}
-        className="flex flex-col md:flex-row justify-center items-stretch mt-44 md:mt-auto px-5 md:px-0 "
+        style={{ height: "auto" }}
+        className="flex flex-col md:flex-row justify-center items-stretch mt-10 md:mt-auto px-5 md:px-0 "
       >
 
         

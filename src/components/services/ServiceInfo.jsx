@@ -26,12 +26,11 @@ const ServiceInfo = () => {
         data-sal-delay="400"
         data-sal-duration="800">
             <p className='mt-2 border-b-2 border-red-500 inline-block pb-2 pt-0'>
-              iACCEL GBI facilitates investor conversations through  <br className='hidden md:block' />
-              institutional investors, High Net Worth Individuals (HNI’s),  <br className='hidden md:block' />
-              Family Offices, Venture Capital Firms, and Angel Investors.
+              IACCEL GBI facilitates investor conversations through Institutional Investors,<br className='hidden md:block' /> High Net Worth Individuals (HNIs), Family Offices, Venture Capital Firms, <br className='hidden md:block' />and Angel Investors.
+              
             </p>
             <p className="mt-2 border-b-2 border-red-500 inline-block pb-2 pt-1">
-              Fundraising support ranging from $0.5M to $10M for qualified portfolio startups
+              Fundraising support ranging from $100K to $10M for qualified portfolio startups
             </p>
             <p className="mt-2 pb-2 pt-1">Pitch Day & Events</p>
           </div>
@@ -66,11 +65,10 @@ const ServiceInfo = () => {
               Business readiness from Day 1 to get you operational immediately.
             </p>
             <p className="mt-2 border-b-2 border-red-500 inline-block pb-2 pt-1">
-              Dedicated support through 3rd Party for Marketing, PR, Legal, <br className='hidden md:block' />
-              Accounting, Taxation, HR, Strategy and more.
+              Dedicated support through 3rd Party for Marketing, PR, Legal, Accounting, <br className='hidden md:block' />Talent/HR, and Immigration Services success. <br className='hidden md:block' />These strong alliances enhance our ability to support founders, <br className='hidden md:block' />accelerate market expansion, and deliver lasting impact<br className='hidden md:block' /> within the entrepreneurial landscape.
             </p>
             <p className="pb-2 pt-2">
-              Expert partners to help you stay compliant, visible, and trusted
+              Photos and link to TBDC Partnership announcement (pending), IAN Partnership, Eurekaa GCC, Angels Den, TiE Bangalore
             </p>
           </div>
 
@@ -99,17 +97,13 @@ const ServiceInfo = () => {
           {/* Entity Setup */}
           <div>
             <p className="mt-2 border-b-2 border-red-500 inline-block pb-2 pt-0">
-              Dubai Mainland License for full market access and one-stop <br className='hidden md:block' />
-              solution for a simplified launch process.
+              Dubai Mainland License for full market access and one-stop entity <br className='hidden md:block' />setup to simplify your launch process
             </p>
             <p className="mt-2 border-b-2 border-red-500 inline-block pb-2 pt-1">
-              Expert assistance in documentation to ensure compliance and <br className='hidden md:block' />
-              speed-to-market.
+              Expert assistance with certifications to ensure <br className='hidden md:block' /> compliance and speed-to-market
             </p>
             <p className="mt-2 inline-block pb-2 pt-1">
-              Fully furnished and serviced offices with optional additional <br className='hidden md:block' />
-              services in the heart of Dubai, along with access to meeting <br className='hidden md:block' />
-              rooms, event spaces, and more.
+              Fully furnished and serviced office with optional additional <br className='hidden md:block' /> desk in the heart of Dubai,<br className='hidden md:block' /> along with access to meeting rooms, event spaces, wifi, and more 
             </p>
           </div>
         </div>

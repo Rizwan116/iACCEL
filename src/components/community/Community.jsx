@@ -5,6 +5,7 @@ import ServiceBanner from '../services/ServiceBanner';
 import Slider from 'react-slick';
 import Crousel from '../crousel/Crousel';
 import SliderSection from '../slider/SliderSection';
+import './Community.css'
 import Infos from './Infos';
 import SliderSectionTwo from '../slider/SliderSectionTwo';
 import HeroTwo from '../hero/HeroTwo';
@@ -46,7 +47,9 @@ function About() {
         <>
           <div>
 
-            <Infos Header={<><div className='blue text-3xl md:text-4xl'>Startups</div></>} Para={<><div className='text-black text-justify text-xl md:text-base'>Our startups are the heart of innovation and entrepreneurship at iACCEL GBI. Driven by visionary founders and bold ideas, they are transforming industries and making a real impact across the MENA region and beyond. With access to strategic resources, mentorship, and a dynamic ecosystem, these startups are accelerating growth, solving challenges, and shaping the future. Discover the exciting ventures that are defining new possibilities and driving meaningful change.</div></>} />
+            <Infos Header={<><div className='blue text-3xl md:text-4xl'>Startups</div></>} Para={<><div className='text-black text-justify text-xl md:text-base'>Our startups are the heart of innovation and entrepreneurship at iACCEL GBI. Driven by visionary founders and bold ideas, they are transforming industries and making a real impact across the MENA region and beyond. With access to strategic resources, mentorship, and a dynamic ecosystem, these startups are accelerating growth, solving challenges, and shaping the future. Discover the exciting ventures that are defining new possibilities and driving meaningful change. <br />
+            
+            Include the following logos + hyperlink their websites</div></>} />
           </div>
         </>
       }
@@ -54,21 +57,20 @@ function About() {
 
 
         Images={[
-          { src: "/logo/dozee.png", name: "Dozee" },
-          { src: "/logo/TrustInLogo.jpg", name: "TrustIn" },
-          { src: "/logo/XSquare.jpg", name: "XSquare" },
-          { src: "/logo/WizerLogo.jpeg", name: "Wizer Logo" },
-          { src: "/logo/TreziOnlyLightNoBG.png", name: "Trezi Only Light" },
-          { src: "/logo/REVERSE-ERTICAL.png", name: "REVERSE ERTICAL" },
-          { src: "/logo/ReflowXLogo.png", name: "Reflow X" },
-          { src: "/logo/iaccel_client3.png", name: "iaccel" },
-          { src: "/logo/iaccel_client1.png", name: "iaccel" },
-          { src: "/logo/Hexitime.jpeg", name: "Hexitime" },
-          { src: "/logo/GosuAcademyLogo.png", name: "Gosu Academy" },
-          { src: "/logo/AyatiDevices.jpg", name: "Ayati Devices" },
-          { src: "/logo/eg.jpeg", name: "EG HealthCare Center" },
-          { src: "/logo/AuraFinancelogo.png", name: "Aura Finance" },
-          { src: "HomeIconSlider2.png", name: "Aura Finance" },
+           { src: "/logo/dozee.png", name: "Dozee", hyperlinks:'https://www.dozeehealth.ai/'},
+          { src: "/logo/TrustInLogo.jpg", name: "TrustIn" , hyperlinks:'#' },
+          { src: "/logo/XSquare.jpg", name: "XSquare" , hyperlinks:'https://www.xsquare.biz/' },
+          { src: "/logo/WizerLogo.jpeg", name: "Wizer Logo" , hyperlinks:'#' },
+          { src: "/logo/TreziOnlyLightNoBG.png", name: "Trezi Only Light" , hyperlinks:'https://trezi.com/' },
+          { src: "/logo/REVERSE-ERTICAL.png", name: "REVERSE ERTICAL" , hyperlinks:'' },
+          { src: "/logo/ReflowXLogo.png", name: "Reflow X" , hyperlinks:'https://www.reflowx.com/'},
+          { src: "/logo/iaccel_client3.png", name: "iaccel" , hyperlinks:'https://tasktracker.in/'},
+          { src: "/logo/iaccel_client1.png", name: "klubworks" , hyperlinks:'https://klubworks.com/'},
+          { src: "/logo/Hexitime.jpeg", name: "Hexitime" , hyperlinks:''},
+          { src: "/logo/GosuAcademyLogo.png", name: "Gosu Academy", hyperlinks:'https://gosuacademy.com/' },
+          { src: "/logo/AyatiDevices.jpg", name: "Ayati Devices", hyperlinks:'' },
+          { src: "/logo/eg.jpeg", name: "EG HealthCare Center" , hyperlinks:'https://eshealthcarecentre.in/'},
+          { src: "/logo/AuraFinancelogo.png", name: "Aura Finance" , hyperlinks:'https://aurafinance.me/'},
         ]}
       />
 
@@ -76,7 +78,7 @@ function About() {
         <>
           <div>
 
-            <Infos Header={<><div className='text-white text-3xl md:text-4xl'>Scaleups</div></>} Para={<><div className='text-justify text-justify text-xl md:text-base'>Our startups are the heart of innovation and entrepreneurship at iACCEL GBI. Driven by visionary founders and bold ideas, they are transforming industries and making a real impact across the MENA region and beyond. With access to strategic resources, mentorship, and a dynamic ecosystem, these startups are accelerating growth, solving challenges, and shaping the future. Discover the exciting ventures that are defining new possibilities and driving meaningful change.</div></>} />
+            <Infos Header={<><div className='text-white text-3xl md:text-4xl'>Scaleups</div></>} Para={<><div className='text-justify text-justify text-xl md:text-base'>Our scaleups represent the next phase of growth and impact within the iACCEL GBI ecosystem. These dynamic companies have moved beyond the startup stage and are rapidly expanding their reach, refining their business models, and scaling operations across the MENA region and beyond. Backed by strategic support and expert guidance, our scaleups are driving innovation, creating jobs, and shaping the future of their industries. Explore how they are accelerating progress and making a lasting difference. <br />Include the following logos + hyperlink their websites</div></>} />
           </div>
         </>
       }
@@ -84,21 +86,20 @@ function About() {
 
 
         Images={[
-           { src: "/logo/dozee.png", name: "Dozee" },
-          { src: "/logo/TrustInLogo.jpg", name: "TrustIn" },
-          { src: "/logo/XSquare.jpg", name: "XSquare" },
-          { src: "/logo/WizerLogo.jpeg", name: "Wizer Logo" },
-          { src: "/logo/TreziOnlyLightNoBG.png", name: "Trezi Only Light" },
-          { src: "/logo/REVERSE-ERTICAL.png", name: "REVERSE ERTICAL" },
-          { src: "/logo/ReflowXLogo.png", name: "Reflow X" },
-          { src: "/logo/iaccel_client3.png", name: "iaccel" },
-          { src: "/logo/iaccel_client1.png", name: "iaccel" },
-          { src: "/logo/Hexitime.jpeg", name: "Hexitime" },
-          { src: "/logo/GosuAcademyLogo.png", name: "Gosu Academy" },
-          { src: "/logo/AyatiDevices.jpg", name: "Ayati Devices" },
-          { src: "/logo/eg.jpeg", name: "EG HealthCare Center" },
-          { src: "/logo/AuraFinancelogo.png", name: "Aura Finance" },
-          { src: "HomeIconSlider2.png", name: "Aura Finance" },
+          { src: "/logo/dozee.png", name: "Dozee", hyperlinks:'https://www.dozeehealth.ai/'},
+          { src: "/logo/TrustInLogo.jpg", name: "TrustIn" , hyperlinks:'#' },
+          { src: "/logo/XSquare.jpg", name: "XSquare" , hyperlinks:'https://www.xsquare.biz/' },
+          { src: "/logo/WizerLogo.jpeg", name: "Wizer Logo" , hyperlinks:'#' },
+          { src: "/logo/TreziOnlyLightNoBG.png", name: "Trezi Only Light" , hyperlinks:'https://trezi.com/' },
+          { src: "/logo/REVERSE-ERTICAL.png", name: "REVERSE ERTICAL" , hyperlinks:'' },
+          { src: "/logo/ReflowXLogo.png", name: "Reflow X" , hyperlinks:'https://www.reflowx.com/'},
+          { src: "/logo/iaccel_client3.png", name: "iaccel" , hyperlinks:'https://tasktracker.in/'},
+          { src: "/logo/iaccel_client1.png", name: "klubworks" , hyperlinks:'https://klubworks.com/'},
+          { src: "/logo/Hexitime.jpeg", name: "Hexitime" , hyperlinks:''},
+          { src: "/logo/GosuAcademyLogo.png", name: "Gosu Academy", hyperlinks:'https://gosuacademy.com/' },
+          { src: "/logo/AyatiDevices.jpg", name: "Ayati Devices", hyperlinks:'' },
+          { src: "/logo/eg.jpeg", name: "EG HealthCare Center" , hyperlinks:'https://eshealthcarecentre.in/'},
+          { src: "/logo/AuraFinancelogo.png", name: "Aura Finance" , hyperlinks:'https://aurafinance.me/'},
         ]}
       />
 

@@ -1,17 +1,28 @@
 
 
 import React from "react";
+import './SliderSection.css';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import { ChevronLeft, ChevronRight } from "lucide-react"; // for icons
-import './SliderSection.css'
 import { NavLink } from "react-router-dom";
 
 const SliderSection = ({ Images,Header,Text,Para,Line,Emp,hyperlinks }) => {
   return (
+
+    
     <div className="bg-[#0a1a44] py-10 px-5 relative">
+
+       <style>{`
+        @media (max-width: 768px) {
+.swiper-slide {
+    width: 280px !important;
+    
+}
+}
+      `}</style>
 
 <div>
   {Emp}
@@ -27,7 +38,7 @@ const SliderSection = ({ Images,Header,Text,Para,Line,Emp,hyperlinks }) => {
  }} className="pt-10 md:pt-0 px-4 sm:px-8 md:px-16 lg:px-[150px] slider-container h-auto  pb-20">
       <div className='flex flex-col items-start'>
         <div>
-      <h1 style={{color:'#eb2935'}} className=" text-lg md:text-xl mb-4 max-w-2xl font-bold ">{Header}</h1>
+      <h1 style={{color:'#eb2935'}} className="text-lg md:text-xl mb-4 max-w-2xl font-bold">{Header}</h1>
         </div>
 
         <div>

@@ -8,9 +8,11 @@ import "swiper/css/navigation";
 import { ChevronLeft, ChevronRight } from "lucide-react"; // for icons
 import './SliderSection.css'
 
-const SliderSection = ({ Images, Header, Text, Para, Line, Emp }) => {
+const SliderSection = ({ Images, Header, Text, Para, Line, Emp,hyperlinks }) => {
   return (
     <div className="bg-[#fff] py-10 px-5 relative">
+
+     
 
       <div>
         {Emp}
@@ -48,9 +50,11 @@ const SliderSection = ({ Images, Header, Text, Para, Line, Emp }) => {
         >
           {Images.map((Image, index) => (
             <SwiperSlide key={index}>
+               <a target="_blank" href={Image.hyperlinks}>
               <div className="bg-white rounded-xl shadow-md flex items-center justify-center h-auto transition-transform duration-300 hover:scale-105 w-full md:w-auto" style={{height: '273px', width: '280px'}}>
                 <img src={Image.src} alt={Image.name} className="w-4/5 md:w-auto h-48 md:h-auto" style={{ height: '160px', width: '170px', objectFit: 'contain'}}  />
               </div>
+              </a>
             </SwiperSlide>
           ))}
         </Swiper>

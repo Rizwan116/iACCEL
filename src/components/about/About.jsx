@@ -33,7 +33,8 @@ function About() {
             office space, a <br className="hidden md:block" /> high-touch market
             access model, <br className="hidden md:block" /> government
             engagement, enterprise <br className="hidden md:block" />{" "}
-            partnerships, and investor connectivity.
+            partnerships, and investor connectivity. <br /><br />
+            Our curated network of industry experts, and in-house<br className="hidden md:block" /> revenue architects, localization specialists, <br className="hidden md:block" />and ecosystem enablers works closely with <br className="hidden md:block" />startups to help them successfully launch, localize,<br className="hidden md:block" /> and grow across the Middle East region.
           </>
         }
         Stats1={
@@ -83,11 +84,11 @@ function About() {
         Header={
           <>
             <span style={{ color: "#1e295c" }}>
-              Our Founding <br /> Member
+              Our Founding <br /> Members
             </span>
           </>
         }
-        Para="Explore how our services can help you achieve your goals and connect with like-minded individuals.Explore how our services can help you achieve your goals and connect with like-minded individuals.Explore how our Explore how our services can help you achieve your goals and connect with like-minded individuals."
+        Para={<>Our founding members are not only the visionaries behind our inception, but they also continue to lead from the front as the driving force of IACCEL GBI. They bring strategic insight, creativity, and deep commitment to the IACCEL GBI mission every day.</>}
         Members={[
           "/FounderMember1.png",
           "FounderMember2.png",
@@ -104,7 +105,7 @@ function About() {
             Our Adisory <br /> Board
           </>
         }
-        Para="Explore how our services can help you achieve your goals and connect with like-minded individuals.Explore how our services can help you achieve your goals and connect with like-minded individuals.Explore how our Explore how our services can help you achieve your goals and connect with like-minded individuals."
+        Para="Our Advisory Board is composed of accomplished industry leaders and experts who play a crucial role in driving our growth and innovation. Leveraging their deep knowledge across finance, technology, marketing, and more, they provide strategic guidance that helps us identify new opportunities, navigate challenges, and stay ahead in a rapidly evolving market. Their insights fuel our innovation pipeline and accelerate our ability to foster a strong launchpad for tech startups. "
         Members={[
           "/AdvisorBoard1.jpg",
           "AdvisorBoar2.jpg",
@@ -123,7 +124,7 @@ function About() {
             </span>
           </>
         }
-        Para="Explore how our services can help you achieve your goals and connect with like-minded individuals.Explore how our services can help you achieve your goals and connect with like-minded individuals.Explore how our Explore how our services can help you achieve your goals and connect with like-minded individuals."
+        Para="Our Mentor Board is a trusted circle of industry leaders, innovators, and seasoned professionals who bring invaluable insight and experience to our journey. With diverse backgrounds and a shared commitment to excellence, they provide strategic guidance, challenge our thinking, and help shape our long-term vision. Their mentorship strengthens our leadership, sharpens our focus, and inspires us to grow with purpose and integrity."
         Members={[
           "/FounderMembery.png",
           "FounderMembery2.png",
