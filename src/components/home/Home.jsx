@@ -73,20 +73,20 @@ function Home() {
 
 
         Images={[
-          { src: "/logo/dozee.png", name: "Dozee" },
-          { src: "/logo/TrustInLogo.jpg", name: "TrustIn" },
-          { src: "/logo/XSquare.jpg", name: "XSquare" },
-          { src: "/logo/WizerLogo.jpeg", name: "Wizer Logo" },
-          { src: "/logo/TreziOnlyLightNoBG.png", name: "Trezi Only Light" },
-          { src: "/logo/REVERSE-ERTICAL.png", name: "REVERSE ERTICAL" },
-          { src: "/logo/ReflowXLogo.png", name: "Reflow X" },
-          { src: "/logo/iaccel_client3.png", name: "iaccel" },
-          { src: "/logo/iaccel_client1.png", name: "iaccel" },
-          { src: "/logo/Hexitime.jpeg", name: "Hexitime" },
-          { src: "/logo/GosuAcademyLogo.png", name: "Gosu Academy" },
-          { src: "/logo/AyatiDevices.jpg", name: "Ayati Devices" },
-          { src: "/logo/eg.jpeg", name: "EG HealthCare Center" },
-          { src: "/logo/AuraFinancelogo.png", name: "Aura Finance" },
+          { src: "/logo/dozee.png", name: "Dozee", hyperlinks:'https://www.dozeehealth.ai/'},
+          { src: "/logo/TrustInLogo.jpg", name: "TrustIn" , hyperlinks:'#' },
+          { src: "/logo/XSquare.jpg", name: "XSquare" , hyperlinks:'https://www.xsquare.biz/' },
+          { src: "/logo/WizerLogo.jpeg", name: "Wizer Logo" , hyperlinks:'#' },
+          { src: "/logo/TreziOnlyLightNoBG.png", name: "Trezi Only Light" , hyperlinks:'https://trezi.com/' },
+          { src: "/logo/REVERSE-ERTICAL.png", name: "REVERSE ERTICAL" , hyperlinks:'' },
+          { src: "/logo/ReflowXLogo.png", name: "Reflow X" , hyperlinks:'https://www.reflowx.com/'},
+          { src: "/logo/iaccel_client3.png", name: "iaccel" , hyperlinks:'https://tasktracker.in/'},
+          { src: "/logo/iaccel_client1.png", name: "klubworks" , hyperlinks:'https://klubworks.com/'},
+          { src: "/logo/Hexitime.jpeg", name: "Hexitime" , hyperlinks:''},
+          { src: "/logo/GosuAcademyLogo.png", name: "Gosu Academy", hyperlinks:'https://gosuacademy.com/' },
+          { src: "/logo/AyatiDevices.jpg", name: "Ayati Devices", hyperlinks:'' },
+          { src: "/logo/eg.jpeg", name: "EG HealthCare Center" , hyperlinks:'https://eshealthcarecentre.in/'},
+          { src: "/logo/AuraFinancelogo.png", name: "Aura Finance" , hyperlinks:'https://aurafinance.me/'},
         ]}
       />
 
@@ -103,7 +103,8 @@ function Home() {
 
         News1Header="News"
         News2Header="EVENTS"
-        New2Text={<>iACCEL GBI showcases <br className='hidden md:block' /> 7 startups at expand <br className='hidden md:block' /> North Star 2024 in Dubai</>} News2Date={<>Date: <b>12 March 2025</b></>} />
+        New2Text={<>iACCEL GBI showcases <br className='hidden md:block' /> 7 startups at expand <br className='hidden md:block' /> North Star 2024 in Dubai</>}
+         News2Date={<>Date: <b>12 March 2025</b></>} />
 
       <Crousel Header="What People say about us" Para={<>
         </>} Name="John Doe" Role="CEO, Company" Image="https://img.freepik.com/free-photo/young-handsome-office_23-2148474918.jpg?w=740&t=st=1696545721~exp=1696546321~hmac=3a5f0d1e3e2e4f0f5f6e8e6c6e8e6c6e8e6c6e8e6c6e8e6c6e8e6c6e8e6c6e8" />

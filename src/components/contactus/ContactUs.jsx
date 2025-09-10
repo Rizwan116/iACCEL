@@ -4,6 +4,8 @@ import ContactInfo from './ContactInfo';
 import Hero from '../hero/Hero';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { NavLink } from 'react-router-dom';
+import HeroTwo from '../hero/HeroTwo';
+
 import "sal.js/dist/sal.css";
 import sal from "sal.js";
 import { useEffect } from "react";
@@ -27,7 +29,7 @@ function ContactUs() {
           }, []);
   return (
     <div>
-      <Hero backgroundImage="./ContactUpBanner.jpg"
+      <HeroTwo   backgroundVideo="./iACCELGBIContactUs.mp4"
          subtext="CONTACT US"
       title={
       <> We are here <br /> to listen

@@ -7,6 +7,8 @@ import ServiceInfo from './ServiceInfo';
 import Data from '../data/Data'
 import "sal.js/dist/sal.css";
 import sal from "sal.js";
+import HeroTwo from '../hero/HeroTwo';
+
 import { useEffect } from "react";
 
 
@@ -19,7 +21,7 @@ function Services() {
     }, []);
   return (
     <div  >
-     <Hero backgroundImage="./Services.jpg"
+     <HeroTwo backgroundImage="./Services.jpg"
          subtext="SERVICES"
       title={
       <> Value-Driven <br /> MENA Growth<br />Proposition 

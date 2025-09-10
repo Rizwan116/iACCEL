@@ -6,7 +6,8 @@ import Slider from 'react-slick';
 import Crousel from '../crousel/Crousel';
 import SliderSection from '../slider/SliderSection';
 import Infos from './Infos';
-import SliderSectionTwo from '../slider/SliderSectionTwo'
+import SliderSectionTwo from '../slider/SliderSectionTwo';
+import HeroTwo from '../hero/HeroTwo';
 import "sal.js/dist/sal.css";
 import sal from "sal.js";
 import { useEffect } from "react";
@@ -21,7 +22,7 @@ function About() {
   }, []);
   return (
     <div>
-      <Hero backgroundImage="./CommunityBanner.jpg"
+      <HeroTwo backgroundImage="./CommunityBanner.jpg"
         subtext="COMMUNITY"
         title={
           <> Connecting <br /> Visionaries<br />Driving Change
