@@ -27,7 +27,7 @@ function SamplePrevArrow(props) {
   );
 }
 
-function Crousel({Header}) {
+function Crousel({Header,}) {
    var settings = {
     dots: true,
     infinite: true,
@@ -59,25 +59,62 @@ function Crousel({Header}) {
         
         <CrouselCard 
         Para={<>
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br className='hidden md:block' />Sed do eiusmod tempor incididunt ut
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit1. <br className='hidden md:block' />Sed do eiusmod tempor incididunt ut
         labore et dolore magna <br className='hidden md:block' />  aliqua.Lorem ipsum dolor sit amet,  consectetur adipiscing elit.  Sed do eiusmod <br className='hidden md:block' />  tempor incididunt ut labore et dolore <br /> magna aliqua" </>}
-        Role=" Co-Founder HexiTime"
-        Name="HESHAM ABDULLA" Image="CEO.png" />
+        Role="Co-Founder & CTO  TaskTracker Suite"
+        Name={
+          <>
+            <span className='uppercase'>Rishab Chandra</span>
+          </>
+        } Image="rishab.jpg" />
         
 
          <CrouselCard 
        Para={<>
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br className='hidden md:block' />Sed do eiusmod tempor incididunt ut
         labore et dolore magna <br className='hidden md:block' />  aliqua.Lorem ipsum dolor sit amet,  consectetur adipiscing elit.  Sed do eiusmod <br className='hidden md:block' />  tempor incididunt ut labore et dolore <br /> magna aliqua" </>}
-        Role=" Co-Founder HexiTime"
-        Name="HESHAM ABDULLA" Image="CEO.png" />
+        Role="Co-Founder & CEO Dozee"
+        Name={<>
+        <span className='uppercase'>
+          Mudit Dandwate
+        </span>
+        </>} Image="MuditDandwate.jpeg" />
 
          <CrouselCard 
        Para={<>
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br className='hidden md:block' />Sed do eiusmod tempor incididunt ut
         labore et dolore magna <br className='hidden md:block' />  aliqua.Lorem ipsum dolor sit amet,  consectetur adipiscing elit.  Sed do eiusmod <br className='hidden md:block' />  tempor incididunt ut labore et dolore <br /> magna aliqua" </>}
-        Role=" Co-Founder HexiTime"
-        Name="HESHAM ABDULLA" Image="CEO.png" />
+        Role="Co-Founder HexiTime"
+        Name={<><span className='uppercase'>
+          HESHAM ABDULLA</span></>} Image="CEO.png" />
+
+         <CrouselCard 
+       Para={<>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br className='hidden md:block' />Sed do eiusmod tempor incididunt ut
+        labore et dolore magna <br className='hidden md:block' />  aliqua.Lorem ipsum dolor sit amet,  consectetur adipiscing elit.  Sed do eiusmod <br className='hidden md:block' />  tempor incididunt ut labore et dolore <br /> magna aliqua" </>}
+        Role="Co-Founder & CEO Klub"
+        Name={<>
+          <span className='uppercase'>Anurakt Jain</span>
+        </>} Image="Anurakt_Klub.jpg" />
+
+
+         <CrouselCard 
+       Para={<>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br className='hidden md:block' />Sed do eiusmod tempor incididunt ut
+        labore et dolore magna <br className='hidden md:block' />  aliqua.Lorem ipsum dolor sit amet,  consectetur adipiscing elit.  Sed do eiusmod <br className='hidden md:block' />  tempor incididunt ut labore et dolore <br /> magna aliqua" </>}
+        Role="Co-Founder & CEO TrustIn"
+        Name={<>
+          <span className='uppercase'>Momeen Ahmad</span>
+        </>} Image="MomeenAhmad.jpg" />
+
+          <CrouselCard 
+       Para={<>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br className='hidden md:block' />Sed do eiusmod tempor incididunt ut
+        labore et dolore magna <br className='hidden md:block' />  aliqua.Lorem ipsum dolor sit amet,  consectetur adipiscing elit.  Sed do eiusmod <br className='hidden md:block' />  tempor incididunt ut labore et dolore <br /> magna aliqua" </>}
+        Role="Co-Founder & Co-CEO Gosu Academy"
+        Name={<>
+        <span className='uppercase'>F. Javier Bernal</span>
+        </>} Image="F_Javier_Bernal.jpg" />
       
     </Slider>
 

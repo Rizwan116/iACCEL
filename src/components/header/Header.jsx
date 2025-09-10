@@ -7,7 +7,23 @@ import './Header.css'
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+    const [scrolled, setScrolled] = useState(false); // track scroll state
   const menuRef = useRef(null);
+
+
+    // Detect scroll
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   // Close menu when clicking outside
   useEffect(() => {
@@ -39,7 +55,11 @@ function Header() {
 
   return (
     <header
-      style={{ backgroundColor: "#1e295c", textTransform: "uppercase" }}
+       style={{
+        backgroundColor: scrolled ? "#1e295c" : "#1e295ce0",
+        textTransform: "uppercase",
+        transition: "background-color 0.3s ease",
+      }}
       className="fixed top-0 left-0 right-0 shadow-lg py-7 z-50"
     >
       <nav className="flex items-center justify-between max-w-6xl mx-auto px-6">

@@ -10,7 +10,8 @@ import {
   faTiktok,
   faSnapchatGhost,
   faLinkedinIn,
-  faWolfPackBattalion
+  faWolfPackBattalion,
+  faXTwitter
 } from '@fortawesome/free-brands-svg-icons';
 
 import { faLocationDot, faPhoneVolume,faEnvelope  } from "@fortawesome/free-solid-svg-icons";
@@ -155,7 +156,7 @@ function Footer() {
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-xl border border-white rounded-full px-0.5 py-1"
             >
-              <FontAwesomeIcon icon={faTwitter} size="lg" />
+              <FontAwesomeIcon icon={faXTwitter} size="lg" />
             </a>
            
            

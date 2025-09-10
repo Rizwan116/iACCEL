@@ -8,4 +8,7 @@
   .min-h-screen {
 min-height: 70vh !important;           
   }
+      .swiper-slide {
+        width: 100% !important;
+    }
 }
