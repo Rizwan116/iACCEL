@@ -73,7 +73,7 @@ function Footer() {
 
                 <li className='border-b border-white pb-1'>
                   <NavLink
-                    to="/service"
+                    to="/services"
                      className={({ isActive }) =>
                       `text-white hover:text-orange-300 transition-colors duration-300 text-lg uppercase  ${
                         isActive ? 'text-white' : ''
