@@ -52,7 +52,7 @@ function Crousel({ Header }) {
       ),
       Role: "Co-Founder & CTO TaskTracker Suite",
       Name: <span className='uppercase'>Rishab Chandra</span>,
-      Image: "rishab.jpg",
+      Image: "./profile/rishab.png",
     },
     {
       Para: (
@@ -64,7 +64,7 @@ function Crousel({ Header }) {
       ),
       Role: "Co-Founder & CEO Dozee",
       Name: <span className='uppercase'>Mudit Dandwate</span>,
-      Image: "MuditDandwate.jpeg",
+      Image: "./profile/MuditDandwate.png",
     },
     // {
     //   Para: (
@@ -89,7 +89,7 @@ function Crousel({ Header }) {
       ),
       Role: "Co-Founder & CEO Klub",
       Name: <span className='uppercase'>Anurakt Jain</span>,
-      Image: "Anurakt_Klub.jpg",
+      Image: "./profile/Anurakt_Klub.png",
     },
     {
       Para: (
@@ -102,7 +102,7 @@ function Crousel({ Header }) {
       ),
       Role: "Co-Founder & CEO TrustIn",
       Name: <span className='uppercase'>Momeen Ahmad</span>,
-      Image: "MomeenAhmad.jpg",
+      Image: "./profile/MomeenAhmad.png",
     },
     {
       Para: (
@@ -115,7 +115,7 @@ function Crousel({ Header }) {
       ),
       Role: "Co-Founder & Co-CEO of Gosu Academy",
       Name: <span className='uppercase'>F. Javier Bernal</span>,
-      Image: "F_Javier_Bernal.jpg",
+      Image: "./profile/F_Javier_Bernal.png",
     },
 
      {
@@ -131,7 +131,7 @@ function Crousel({ Header }) {
       ),
       Role: "Co-Founder & Co-CEO of Accreda",
       Name: <span className='uppercase'>Amol Dani</span>,
-      Image: "Amol_Dani.jpg",
+      Image: "./profile/Amol_Dani.png",
     },
   ];
 

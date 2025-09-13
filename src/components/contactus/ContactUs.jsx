@@ -48,7 +48,12 @@ function ContactUs() {
           <div  className='w-full md:w-4/6'>
             <h1 style={{color:'#1e295c'}} className='text-3xl md:text-4xl pb-5'>We are always ready <br /> to help you ad answer <br /> your questions</h1>
 
-             <p className='pb-6 text-lg md:text-base'>Lorem ipsum dolor sit amet consectetur, <br /> adipisicing elit. Autem commodi modi excepturi <br /> quae minima eveniet!</p>
+             <p className='pb-6 text-lg md:text-base'>We are excited to connect with you! <br /> Whether you are interested in partnering or learning more about how we are building <br /> the entrepreneurial ecosystem in the MENA region, let’s connect!</p>
+
+             <p className='pb-6 text-lg md:text-base'>If you are a founder exploring expansion into the MENA Region, <br />please contact: <a href="mailto:Deepak.ahuja@iaccelgbi.com">Deepak.ahuja@iaccelgbi.com</a></p>
+
+             <p className='pb-6 text-lg md:text-base'>If you are a VC looking to explore investments in the tech startup ecosystem, <br />please contact: 
+<a href="mailto:Aliya.babul@iaccelgbi.com">Aliya.babul@iaccelgbi.com</a></p>
             
 
                 <div className='flex flex-col md:flex-row gap-2 md:gap-10'>

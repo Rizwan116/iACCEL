@@ -40,11 +40,11 @@ function Home() {
         ></div>
       </>} Head3={<>Locations <br className='hidden md:block' /> across Asia</>} Head4={<>Member <br className='hidden md:block' />companies</>} />
 
-      <Info BackgroundImage1="/HomeServiceIcons2.png"
-        BackgroundImage2="/HomeServiceIcons3.png"
-        BackgroundImage3="/HomeServiceIcons4.png"
-        BackgroundImage4="/HomeServiceIcons5.png"
-        BackgroundImage5="/HomeServiceIcons.png"
+      <Info BackgroundImage1="/MArket-access.png"
+        BackgroundImage2="/Network.png"
+        BackgroundImage3="/Investor-Connect.png"
+        BackgroundImage4="/Business-Support.png"
+        BackgroundImage5="/Entity-Setup.png"
 
         Header="SERVICES"
 

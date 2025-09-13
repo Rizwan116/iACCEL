@@ -36,7 +36,7 @@ function News({BackroundImage, BackroundImage2,Header,Date,Time,EventDetails,New
     News2Date: <>Date: <b>12 March 2025</b></>,
   },
  {
-    BackroundImage: "/news/Media3.jpg",
+    BackroundImage: "/news/Media3.png",
     BackroundImage2: "/MediaNewsBanner2.png",
     News1Header: "News",
     EventDetails: <>IAN Group and <br /> iACCEL GBI partnership</>,
@@ -47,7 +47,7 @@ function News({BackroundImage, BackroundImage2,Header,Date,Time,EventDetails,New
   },
 
    {
-    BackroundImage: "/news/Media4.jpg",
+    BackroundImage: "/news/Media4.png",
     BackroundImage2: "/MediaNewsBanner2.png",
     News1Header: "News",
     EventDetails: <>IAN Group and <br /> iACCEL GBI partnership</>,
