@@ -117,6 +117,16 @@ function Media() {
       Dates: "01 June 2023"
     },
 
+    {
+      Profile: "/media/12.jpg",
+      Title:<>Dubai SME and India Accelerator launch iACCEL Gulf Business Incubator   LLC in Dubai   </>,
+      Item: <>Dubai SME and India Accelerator launch iAccel GBI in Dubai to support startups with mentorship, networking, and funding.</>,
+      Btn: "Read More",
+      Dates: "01 June 2023"
+    },
+
+
+
     
   ];
 
