@@ -57,7 +57,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Muhammad-Shakeel123/react-router-project.git
+   git clone git url
    ```
 2. **Navigate to the project directory:**
     ```bash
@@ -100,7 +100,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 For any inquiries or issues, feel free to open an issue in the repository.
 
 ## 👨‍💻 Author
-**Muhammad Shakeel:**
+**Rizwan:**
 Feel free to connect with me on GitHub for any questions or contributions!
 
 ## 📜 License
