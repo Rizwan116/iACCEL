@@ -55,19 +55,16 @@ react-router-project/
 
 Follow these steps to set up the project locally:
 
-1. **Clone the repository:**
-   ```bash
-   git clone git url
-   ```
-2. **Navigate to the project directory:**
+
+1. **Navigate to the project directory:**
     ```bash
-    cd react-router-project
+    cd iAccel
     ```
-3. **Install dependencies:**
+2. **Install dependencies:**
     ```bash
     npm install
     ```
-4. **Run the app:**
+3. **Run the app:**
     ```bash
     npm run dev
     ```
